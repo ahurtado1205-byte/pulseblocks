@@ -1,4 +1,4 @@
-const CACHE_NAME = "pulseblocks-v1";
+const CACHE_NAME = "pulseblocks-v6";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -6,7 +6,8 @@ const APP_SHELL = [
   "./app.js",
   "./mockData.js",
   "./manifest.json",
-  "./icon.svg"
+  "./icon.svg",
+  "./assets/guia-productividad-emocional.png"
 ];
 
 self.addEventListener("install", (event) => {
